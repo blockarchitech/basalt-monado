@@ -48,7 +48,7 @@ jobs:
     steps:
     - name: Clone repository
       run: |
-        git clone --recursive https://gitlab.freedesktop.org/mateosss/basalt.git
+        git clone --recursive https://github.com/blockarchitech/basalt-monado
         
     - name: Print Working Directory
       run: |
